@@ -32,3 +32,12 @@ It’s built using **Python**, **Streamlit**, and **Hugging Face Transformers** 
 ```bash
 git clone https://github.com/yourusername/PDFgpt.git
 cd PDFgpt/pdf_summarizer
+
+```
+---
+
+### 👩‍💻 Author
+
+ Made with 💖 by Disha
+
+---
