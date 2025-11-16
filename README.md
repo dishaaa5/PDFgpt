@@ -5,16 +5,6 @@ It’s built using **Python**, **Streamlit**, and **Hugging Face Transformers** 
 
 ---
 
-## 🚀 Features
-
-- 📄 Upload any PDF (up to 200MB)
-- 🧾 AI-generated summary using a transformer model (`distilbart-cnn-12-6`)
-- 🔊 Listen to your summary with text-to-speech
-- 💻 Simple and minimal UI
-- ❤️ “Made with love by Disha” footer
-
----
-
 ## 🛠️ Tech Stack
 
 - **Python 3.10+**
