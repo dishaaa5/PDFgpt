@@ -1,33 +1,54 @@
-# 🧠 PDFGPT — AI PDF Summarizer
+# 📘 PDFGPT – PDF Summarizer with Audio
 
-**PDFGPT** is a simple and efficient AI-powered web app that allows users to upload PDF files and get quick, accurate summaries in both **text** and **audio** form.  
-It’s built using **Python**, **Streamlit**, and **Hugging Face Transformers** — no API key required!
+PDFGPT is a **Streamlit-based web app** that allows users to upload a PDF, extract its text, generate an **AI-powered summary**, and convert that summary into **audio (MP3)** using Text-to-Speech.
+
+---
+
+## 🚀 Features
+
+- 📤 Upload any PDF file  
+- 📄 Extract readable text from PDFs  
+- 🧠 AI-powered summarization using **HuggingFace BART**  
+- ✂️ Automatic token-safe text chunking  
+- 🎧 Convert summary into **audio narration (MP3)**  
+- 🌐 Simple and interactive **Streamlit UI**
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Python 3.10+**
+- **Python**
 - **Streamlit**
-- **Transformers**
 - **PyPDF2**
-- **gTTS** (Google Text-to-Speech)
-- **Torch**
+- **HuggingFace Transformers**
+- **Facebook BART (bart-large-cnn)**
+- **gTTS (Google Text-to-Speech)**
 
 ---
 
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/yourusername/PDFgpt.git
-cd PDFgpt/pdf_summarizer
-
-```
----
-
-### 👩‍💻 Author
-
- Made with 💖 by Disha
+## ▶️ Run the Application 
+streamlit run app.py
 
 ---
+
+## 📋 requirements.txt
+- streamlit
+- PyPDF2
+- transformers
+- torch
+- gtts
+
+---
+## 🧠 How It Works
+- User uploads a PDF
+- Text is extracted using PyPDF2
+= Long text is split into token-safe chunks
+- Each chunk is summarized using BART
+- All summaries are merged into a final summary
+- Summary is converted into MP3 audio
+
+---
+## 👩‍💻 Author
+
+Disha
+
